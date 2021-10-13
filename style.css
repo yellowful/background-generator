@@ -1,33 +1,13 @@
-body {
-	font: 'Raleway', sans-serif;
-    color: rgba(0,0,0,.5);
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: .5em;
-    top: 15%;
-	background: linear-gradient(to right, #00ff00 , #ff0000); /* Standard syntax */
-}
-
-h1 {
-    font: 600 3.5em 'Raleway', sans-serif;
-    color: rgba(0,0,0,.5);
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: .5em;
+html {
     width: 100%;
+    height: 100%;
+    background-image:linear-gradient(to right,blue,orange);
 }
 
-h3 {
-	font: 900 1em 'Raleway', sans-serif;
-    color: rgba(0,0,0,.5);
+body{
     text-align: center;
-    text-transform: none;
-    letter-spacing: 0.01em;
-
 }
 
-button {
-    width: 20%;
-    height: 2em;
-    border:2px black solid;
-}
+p:first-of-type {
+    text-transform: uppercase;
+}//first-child沒效果
